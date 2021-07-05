@@ -35,8 +35,9 @@ a::before{
     box-shadow: 5px 5px 0px #000;
     padding: 18px 20px;
     margin-right: 0;
+    transition: transform 100ms cubic-bezier(0.81, 0.8, 1, 2.76);
 }
 
 #button:hover{
-    color: black;
+    transform: scale(1.08);
 }
