@@ -1,4 +1,4 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     background-color: #CEB02A;
@@ -6,11 +6,11 @@ header{
     padding: 10px 20px;
 }
 
-nav{
+nav {
     text-align: right;
 }
 
-a{
+a {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -21,7 +21,7 @@ a{
     margin-right: 30px;
 }
 
-a::before{
+a::before {
     content: "";
     background-color: #BA1F33;
     width: 10px;
