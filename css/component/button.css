@@ -5,6 +5,10 @@
     padding: 18px 20px;
     margin-right: 0;
     transition: transform 100ms cubic-bezier(0.81, 0.8, 1, 2.76);
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button:hover{
