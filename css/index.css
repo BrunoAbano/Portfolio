@@ -21,7 +21,7 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+nav a::before {
     content: "";
     background-color: #BA1F33;
     width: 10px;
