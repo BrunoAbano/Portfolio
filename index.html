@@ -227,14 +227,18 @@
                  Código e aprender JavaScript.</p>
         </section>
 
-        <form class="main-form">
+        <form class="main-form" action="https://formsubmit.co/brunix.abanix@gmail.com" method="POST">
             <legend class="main-title -second">Contatos</legend>
+
+            <input type="hidden" name="_captcha" value="false">
 
             <label class="main-label" for="name">Nome</label>
             <input class="main-input" id="name" type="text" required>
 
             <label class="main-label" for="email">E-mail</label>
             <input class="main-input" id="email" type="email" required>
+
+            <input type="hidden" name="_next" value="https://brunoabano.github.io/portfolio">
 
             <label class="main-label" for="message">Mensagem</label>
             <textarea class="main-input -textarea" id="message" required></textarea>

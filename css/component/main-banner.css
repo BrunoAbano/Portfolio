@@ -2,15 +2,17 @@
     box-sizing: border-box;
     background-image: url(../../Assets/img/photo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     border-bottom: 10px solid #000;
-    height: auto;
+    min-width: 100px;
+    min-height: auto;
+    height: 1063px;
     padding-top: 115px;
     padding-left: 90px;
+    resize: horizontal;
 }
 
 .main-banner .wrapper {
-    display: flex;
     flex-direction: column;
     width: 630px;
 }
