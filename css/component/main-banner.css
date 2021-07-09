@@ -3,8 +3,8 @@
     background-image: url(../../Assets/img/photo.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 1063px;
     border-bottom: 10px solid #000;
+    height: auto;
     padding-top: 115px;
     padding-left: 90px;
 }

@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/component/main-caroussel.css">
         <link rel="stylesheet" href="css/component/main-banner.css">
         <link rel="stylesheet" href="css/component/main-discription.css">
+        <link rel="stylesheet" href="css/component/main-footer.css">
         <link rel="stylesheet" href="css/component/main-header.css">
         <link rel="stylesheet" href="css/component/main-section.css">
         <link rel="stylesheet" href="css/component/skill-tec.css">
@@ -26,6 +27,9 @@
         <link rel="stylesheet" href="css/component/wrapper-skill.css">
         <link rel="stylesheet" href="css/component/card-project.css">
         <link rel="stylesheet" href="css/component/wrapper-card.css">
+        <link rel="stylesheet" href="css/component/main-label.css">
+        <link rel="stylesheet" href="css/component/main-input.css">
+        <link rel="stylesheet" href="css/component/main-form.css">
     </head>
 
     <body>
@@ -222,6 +226,33 @@
                  candidato para entrar na Academia de 
                  Código e aprender JavaScript.</p>
         </section>
+
+        <form class="main-form">
+            <legend class="main-title -second">Contatos</legend>
+
+            <label class="main-label" for="name">Nome</label>
+            <input class="main-input" id="name" type="text" required>
+
+            <label class="main-label" for="email">E-mail</label>
+            <input class="main-input" id="email" type="email" required>
+
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textarea" id="message" required></textarea>
+
+            <button class="main-button -full" type="submit">Enviar</button>
+        </form>
+
+        <footer class="main-footer">
+            <a class="action" href="https://twitter.com/BrunoAbano4" target="_blank">
+                <img src="Assets/img/twitterPixel.png" alt="Logo do Twitter em pixelart">
+            </a>
+            <a class="action" href="https://www.youtube.com/channel/UCZcyCEQ6BZe1eN4dcsRXpFw" target="_blank">
+                <img src="Assets/img/youtubePixel.png" alt="Logo do Youtube em pixelart">
+            </a>
+            <a class="action" href="https://discord.gg/24efYWnX" target="_blank">
+                <img src="Assets/img/discordPixel.png" alt="Logo do Discord em pixelart">
+            </a>
+        </footer>
 
         <script src="js/components/main-caroussel.js"></script>
     </body>
