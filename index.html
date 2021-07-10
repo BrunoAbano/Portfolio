@@ -33,15 +33,15 @@
     </head>
 
     <body>
-        <header class="main-header">
+        <header class="main-header" id="header">
             <img src="Assets/img/MenuLogo.png" alt="Avatar do Bruno Abano">
 
             <nav>
-                <a class="main-action" href="" lang="en">Skills</a>
-                <a class="main-action" href="">Projetos</a>
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
-                <a class="main-button" href="" lang="en">Download CV</a>
+                <a class="main-action" href="#skills" lang="en">Skills</a>
+                <a class="main-action" href="#projetos">Projetos</a>
+                <a class="main-action" href="#sobre">Sobre</a>
+                <a class="main-action" href="#contatos">Contatos</a>
+                <a class="main-button" href="PDFfile/Bruno-Abano-Portfolio.pdf" lang="en" download="">Download CV</a>
             </nav>
         </header>
 
@@ -53,13 +53,13 @@
                 </div>
                 
                 <div class="navigation">
-                    <a class="main-button" href="" lang="en">Download CV</a>
-                    <a class="main-button" href="">Contatos</a>
+                    <a class="main-button" href="PDFfile/Bruno-Abano-Portfolio.pdf" lang="en" download="">Download CV</a>
+                    <a class="main-button -main-action" href="#contatos">Contatos</a>
                 </div>
             </div>
         </section>
         
-        <section class="main-section">
+        <section class="main-section" id="skills">
             <h2 class="main-title -second">Skills</h2>
 
             <div class="wrapper-skill">
@@ -138,7 +138,7 @@
             </div>
         </section>
 
-        <section class="main-section -bgBlack -bdFirst">
+        <section class="main-section -bgBlack -bdFirst" id="projetos">
             <h2 class="main-title -second">Projetos</h2>
 
             <div class="wrapper-card">
@@ -160,7 +160,7 @@
             </div>
         </section>
 
-        <section class="main-section -bgSecond -bdBlack">
+        <section class="main-section -bgSecond -bdBlack" id="sobre">
             <h2 class="main-title -second">Sobre</h2>
 
             <section class="main-caroussel">
@@ -227,7 +227,7 @@
                  Código e aprender JavaScript.</p>
         </section>
 
-        <form class="main-form" action="https://formsubmit.co/brunix.abanix@gmail.com" method="POST">
+        <form class="main-form" action="https://formsubmit.co/brunix.abanix@gmail.com" method="POST" id="contatos">
             <legend class="main-title -second">Contatos</legend>
 
             <input type="hidden" name="_captcha" value="false">
@@ -258,6 +258,10 @@
             </a>
         </footer>
 
+        <a href="#header" class="top-btn">&#8686</a>
+
         <script src="js/components/main-caroussel.js"></script>
+        <script src="js/components/main-scroll.js"></script>
+        <script src="js/components/smoothScroll.js"></script>
     </body>
 </html>

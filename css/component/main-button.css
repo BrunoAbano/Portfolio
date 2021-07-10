@@ -22,3 +22,22 @@
 .main-button.-full:hover{
     transform: scale(1.02);
 }
+
+.top-btn {
+    position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	border-radius: 50%;
+	background-color: #CEB02A;
+	color: #ffffff;
+	text-align: center;
+	opacity: 0;
+	transition: 0.4s ease;
+}
+
+.top-btn:hover {
+	box-shadow: 0 0 1rem #ffffff;
+}
