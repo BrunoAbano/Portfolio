@@ -1,11 +1,11 @@
 .main-button{
     display: inline-block;
     background-color: #BA1F33;
-    box-shadow: 5px 5px 0px #000;
-    padding: 18px 20px;
+    box-shadow: 0.3vw 0.3vw 0px #000;
+    padding: 0.9vw 1.8vw;
     margin-right: 0;
     transition: transform 100ms cubic-bezier(0.81, 0.8, 1, 2.76);
-    font-size: 20px;
+    font-size: 1.1vw;
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
