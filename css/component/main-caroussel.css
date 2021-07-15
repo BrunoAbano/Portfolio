@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 6vw;
+    padding-right: 6vw;
 }
 
 .main-caroussel::after {
     content: '';
     position: absolute;
     left: 40px;
-    top: 38px;
+    top: 2vw;
     display: block;
     height: 4px;
     width: calc(100% - 80px);
@@ -22,7 +22,7 @@
     position: absolute;
     box-sizing:border-box;
     left: 0;
-    top: 38px;
+    top: 2vw;
     display: block;
     border: 2px dashed #000;
     width: 100%;
@@ -31,16 +31,16 @@
 
 .main-caroussel .button-arrow {
     position: absolute;
-    bottom: 75px;
+    bottom: 4vw;
     transform: translateY(40%);
 }
 
 .main-caroussel .button-arrow.-left {
-    left: 15px;
+    left: 1vw;
 }
 
 .main-caroussel .button-arrow.-right {
-    right: 15px;
+    right: 1vw;
 }
 
 .main-caroussel .items {

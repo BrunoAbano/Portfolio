@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #7C5E99;
-    width: 280px;
-    height: 280px;
-    box-shadow: 10px 10px 0px #FFF;
+    width: 16vw;
+    height: 16vw;
+    box-shadow: 0.5vw 0.5vw 0px #FFF;
 }

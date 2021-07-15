@@ -1,8 +1,8 @@
 .button-arrow {
-    width: 50px;
-    height: 50px;
+    width: 2.8vw;
+    height: 2.8vw;
     background-color: #BA1F33;
-    box-shadow: 5px 5px 0px #000;
+    box-shadow: 0.3vw 0.3vw 0vw #000;
     cursor: pointer;
 }
 
@@ -14,13 +14,13 @@
     content: '';
     display: block;
     box-sizing: border-box;
-    width: 18px;
-    height: 18px;
-    border: 18px solid transparent;
-    border-left: 28px solid white;
-    transform: translateX(7px);
+    width: 2vw;
+    height: 2vw;
+    border: 1vw solid transparent;
+    border-left: 1.5vw solid white;
+    transform: translateX(0.2vw);
 }
 
 .button-arrow.-left::before {
-    transform: rotate(180deg) translateX(16px);
+    transform: rotate(180deg) translateX(0.9vw);
 }

@@ -1,7 +1,7 @@
 .main-subtitle {
     font-size: 1.6vw;
     font-family: 'Press Start 2P', sans-serif;
-    text-shadow: 4px 4px 0 #000;
+    text-shadow: 0.3vw 0.3vw 0 #000;
     color: #FFF;
     white-space: nowrap;
 }

@@ -10,19 +10,19 @@
     position: absolute;
     bottom: 0;
     box-sizing: border-box;
-    height: 0px;
-    width: 40px;
+    height: 0vw;
+    width: 1.8vw;
     border: 2.2px dashed #000;
     transform: rotate(90deg) translateX(-62%);
-    bottom: 140px;
+    bottom: 144px;
 }
 
 .node-card .title {
     font-family: 'Press start 2P', sans-serif;
-    font-size: 25px;
+    font-size: 1.5vw;
     font-weight: 400;
     color: #F25A70;
-    margin-bottom: 50px;
+    margin-bottom: 2.5vw;
 }
 
 .node-card .logo {
@@ -30,8 +30,8 @@
     align-items: center;
     height: 140px;
     border: 5px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
     background-color: #CEB02A;
 }
 
