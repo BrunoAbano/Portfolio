@@ -2,7 +2,11 @@
     display: flex;
     justify-content: center;
     background-color: #7C5E99;
-    width: 16vw;
-    height: 16vw;
+    background-size: cover;
+}
+
+.card-project .logo {
+    width: 18vw;
+    height: 18vw;
     box-shadow: 0.5vw 0.5vw 0px #FFF;
 }

@@ -11,3 +11,10 @@
     text-align: center;
     text-shadow: none;
 }
+
+.main-title.-third {
+    color: #FFF;
+    text-shadow: none;
+    padding-left: 39%;
+}
+

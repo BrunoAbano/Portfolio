@@ -27,14 +27,14 @@
     position: fixed;
 	bottom: 1rem;
 	right: 1rem;
-	width: 4vw;
-	height: 4vw;
-	line-height: 4vw;
+	width: 4rem;
+	height: 4rem;
+	line-height: 4rem;
 	border-radius: 50%;
 	background-color: #CEB02A;
 	color: #ffffff;
 	text-align: center;
-    font-size: 1.2vw;
+    font-size: 1rem;
 	opacity: 0;
 	transition: 0.4s ease;
 }

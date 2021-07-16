@@ -2,11 +2,15 @@
     display: flex;
     justify-content: center;
     background-color: #000;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 1.5vw;
+    padding-bottom: 1vw;
 }
 
 .main-footer .action {
-    margin-right: 20px;
-    padding-left: 20px;
+    margin-right: 1vw;
+    padding-left: 1vw;
+}
+
+.main-footer .action .social {
+    height: 2.5vw;
 }
