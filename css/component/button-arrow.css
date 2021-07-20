@@ -1,5 +1,5 @@
 .button-arrow {
-    width: 2.8vw;
+    width: 2.6vw;
     height: 2.8vw;
     background-color: #BA1F33;
     box-shadow: 0.3vw 0.3vw 0vw #000;
@@ -11,6 +11,7 @@
 }
 
 .button-arrow::before {
+    padding: none;
     content: '';
     display: block;
     box-sizing: border-box;

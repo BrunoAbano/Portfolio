@@ -31,7 +31,7 @@
 
 .main-caroussel .button-arrow {
     position: absolute;
-    bottom: 4vw;
+    bottom: 3vw;
     transform: translateY(40%);
 }
 

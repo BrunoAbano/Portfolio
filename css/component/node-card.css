@@ -11,10 +11,10 @@
     bottom: 0;
     box-sizing: border-box;
     height: 0vw;
-    width: 1.8vw;
+    width: 2vw;
     border: 2.2px dashed #000;
     transform: rotate(90deg) translateX(-62%);
-    bottom: 144px;
+    bottom: 6.1vw;
 }
 
 .node-card .title {
@@ -28,8 +28,8 @@
 .node-card .logo {
     display: flex;
     align-items: center;
-    height: 140px;
-    border: 5px solid #000;
+    height: 6vw;
+    border: 0.3vw solid #000;
     padding-left: 2vw;
     padding-right: 2vw;
     background-color: #CEB02A;
@@ -45,5 +45,24 @@
 
 .node-card.-cleanmym .logo {
     padding: 0;
-    height: 129px;
+}
+
+.node-card .logo .localweb {
+    width: 8vw;
+}
+
+.node-card .logo .caelum {
+    width: 6vw;
+}
+
+.node-card .logo .getninjas {
+    width: 6vw;
+}
+
+.node-card .logo .impulso {
+    width: 9vw;
+}
+
+.node-card .logo .collabcode {
+    width: 5.8vw;
 }
