@@ -5,7 +5,7 @@
     font-size: 1.1vw;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 2em;
 }
 
 .main-action::before {
@@ -13,5 +13,5 @@
     background-color: #BA1F33;
     width: 0.5vw;
     height: 0.5vw;
-    margin-right: 10px;
+    margin-right: 1em;
 }
